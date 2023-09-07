@@ -75,4 +75,4 @@ This will provide metrics such as accuracy, precision, recall, and F1-score for 
 Contributions to enhance FraudF is welcomed!! If you'd like to contribute, please follow our Contribution Guidelines.
 
 # License
-This project is licensed under the MIT License - see the LICENSE file for details.
+[MIT](https://github.com/akosaraju19/FraudF/blob/main/LICENSE)
