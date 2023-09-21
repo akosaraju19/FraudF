@@ -1,78 +1,25 @@
-# FraudF
-credit card fraud detection model
-# Overview
-FraudF is a powerful fraud detection model developed to analyze large volumes of transactional data and flag potential credit card fraud activities. Leveraging the Random Forest and Gradient Boosting algorithms in Python, FraudF aims to accurately detect fraudulent transactions with an impressive 95% accuracy rate.
+# Fraud Detection Model
 
-# Table of Contents
-- [Features](#Features)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Data Preparation](#Data-Preparation)
-- [Training the Model](#Training-the-Model)
-- [Evaluation](#Evaluation)
-- [Contributing](#Contributing)
-- [License](#License)
+This is a fraud detection model that uses Isolation Forest and Local Outlier Factor (LOF) algorithms. The model is licensed under the MIT License.
 
-# Features
-FraudF utilizes the power of Random Forest and Gradient Boosting algorithms to effectively detect fraudulent transactions.
+## Table of Contents
 
-An ETL pipeline is provided to clean and preprocess transaction data, making it ready for model training.
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
 
-The model has been trained on a large dataset and boasts an accuracy rate of 95% in detecting fraudulent transactions.
+## Installation
 
-# Installation
-1. Clone the repository
-2. Navigate to the project directory:
+To install the required packages, run the following command:
    ```bash
-    cd FraudF
-    ```
-3. Recomended to create a virtual environment
-  ```bash
-    python -m venv venv
-  ```
-4. Activate virtual environment:
-   - On Mac/Linux
-      ```bash
-      source venv/bin/activate
-      ```
-   - On Windows
-      ```bash
-      venv\Scripts\activate
-      ``` 
-    
-5. Install the required dependencies:
- ```bash
-    pip install -r requirements.txt
+  python pip install -r requirements.txt
   ```
 
-# Usage
-# Data Preparation
-Before using FraudF, you need to prepare your transaction data. Follow these steps:
 
-Place your transaction data file (e.g., transactions.csv) in the data directory.
+## Contributing
 
-Run the ETL pipeline to clean and preprocess the data:
+Contributions are welcome! If you would like to contribute, please fork the repository and submit a pull request.
 
-  ```bash
-    python etl_pipeline.py
-  ```
+## License
 
-# Training the Model
-To train the FraudF model, execute the following command:
-  ```bash
-    python train_model.py
-  ```
-This will train the model on the preprocessed data and save the trained model to the models directory.
-
-# Evaluation
-You can evaluate the performance of the model using this:
-  ```bash
-    python evaluate_model.py
-  ```
-This will provide metrics such as accuracy, precision, recall, and F1-score for fraud detection.
-
-# Contributing
-Contributions to enhance FraudF is welcomed!! If you'd like to contribute, please follow our Contribution Guidelines.
-
-# License
-[MIT](https://github.com/akosaraju19/FraudF/blob/main/LICENSE)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
